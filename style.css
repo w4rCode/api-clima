@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+.mainBox{
+    background-color: #000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #232323;
+    color: #ffff;
+    width: calc(100% - 90px );
+}
+.btn{
+border: none;
+outline: none;
+padding: 10px;
+border-radius: 50px;
+background-color: #232323;
+cursor: pointer;
+}
+.imgSearch{
+    width: 30px;
+}
+.boxInfo{
+display: flex;
+align-items: center;
+margin: 20px 0px;
+}
+.boxInfo p{
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.cardInfo{
+    color: #ffff;
+    margin-top: 30px;
+}
+.cardInfo h2{
+    margin-bottom: 20px;
+    font-size: 1.7em;
+}
+.temp{
+    font-size: 2rem;
+}
+.umidade{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
